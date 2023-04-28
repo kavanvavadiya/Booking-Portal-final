@@ -1,0 +1,18 @@
+.booking{
+    width: 100vw;
+    /* display: flex; */
+    /* margin: auto; */
+    margin-top: 20px;
+    position: relative;
+}
+.add-btn{
+    
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.table{
+    position: relative;
+    right: -31px;
+    width: 250px;
+}

@@ -1,0 +1,99 @@
+.addBooking{
+    min-width: 200px;   
+    margin: auto;
+    margin-top: 20px;
+}
+
+.head{
+margin: auto;
+display: flex;
+justify-content:center;
+font-size:x-large;
+}
+.startContain{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+.slotContainer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cardContainer{
+    border: 3px solid rgb(0, 0, 0);
+    
+    display: flex;
+    border-radius: 10%;
+    flex-direction:column;
+    font-size: larger;
+    margin: 20px;
+    min-width: 50px;
+    max-width: 200px;
+
+}
+.section1{
+    border: 1px solid red;
+    color: white;
+padding: 5px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #1e1e84;
+    margin: 10px;
+    border-radius: 10px;
+}
+.time,.date,.day{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.section2{
+    border: 1px solid red;
+    color: white;
+padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    background-color: #1e1e84;
+    margin: 10px;
+    border-radius: 10px;
+}
+.book-btn{
+    border: 1px solid red;
+    background-color: #88ff39;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.form{
+    margin-top: 20px;
+}
+.err{
+    color: red;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* font-size:25px; */
+}
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+     
+      margin-top:15px;
+      min-width: 30px;
+    max-width: 150px;
+
+    }
+  }
+@media only screen and (min-width: 600px) {
+    .addBooking{
+        width: 80vw;
+        min-width: 200px;   
+        margin: auto;
+        margin-top: 20px;
+    }
+  }
